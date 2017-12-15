@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Punnett Square Generator</title>
+  <link rel="stylesheet" type="text/css" href="punnett.css">
+</head>
+<body>
+  <div>
+    <label for="input1">First Parent</label>
+    <input id="input1" onKeyUp="update()" type="text" title="input1"><br>
+    <label for="input2">Second Parent</label>
+    <input id="input2" onKeyUp="update()" type="text" title="input1">
+  </div>
+  <div class="canvas">
+    <canvas id="out" height="1000" width="1000"></canvas>
+  </div>
+  <script src="punnett-square.js"></script>
+</body>
+</html>
