@@ -12,7 +12,7 @@ document.body.onmousedown = function (e) {
         isRightMB = e.button == 2;
     return !isRightMB;
 };
-document.keydown = function(event) {
+document.addEventListener("keydown", function(event) {
   alert("keypress")
   var pressed = event.which || event.keyCode;
   if ( event.ctrlKey || event.metaKey ){
@@ -21,4 +21,4 @@ document.keydown = function(event) {
   }else{
     return true;
   }
-};
+});
