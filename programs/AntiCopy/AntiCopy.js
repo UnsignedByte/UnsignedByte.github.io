@@ -1,7 +1,7 @@
 window.oncontextmenu = function ()
 {
     return false;     // cancel default menu
-}
+};
 document.body.onmousedown = function (e) {
     var isRightMB;
     e = e || window.event;
@@ -11,7 +11,7 @@ document.body.onmousedown = function (e) {
     else if ("button" in e)  // IE, Opera
         isRightMB = e.button == 2;
     return !isRightMB;
-}
+};
 document.onkeypress = function(evt) {
   alert("keypress")
   var pressed = event.which || event.keyCode;
@@ -21,4 +21,4 @@ document.onkeypress = function(evt) {
   }else{
     return true;
   }
-}
+};
