@@ -12,7 +12,8 @@ document.body.onmousedown = function (e) {
         isRightMB = e.button == 2;
     return !isRightMB;
 }
-window.onkeypress = function(evt) {
+document.onkeypress = function(evt) {
+  alert("keypress")
   var pressed = event.which || event.keyCode;
   if ( pressed == (91 || 17)){
     alert("no command!")
