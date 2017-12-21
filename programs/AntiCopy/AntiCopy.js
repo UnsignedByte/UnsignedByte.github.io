@@ -15,7 +15,7 @@ document.body.onmousedown = function (e) {
 document.addEventListener("keydown", function(event) {
   var pressed = event.which || event.keyCode;
   if ( ( event.ctrlKey || event.metaKey ) && event.keyCode == ( 85 || 73 || 74 ) ){
-    alert("nein");
+    event.preventDefault();
     return false;
   }else{
     return true;
