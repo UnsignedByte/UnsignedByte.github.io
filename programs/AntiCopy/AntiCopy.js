@@ -13,10 +13,9 @@ document.body.onmousedown = function (e) {
     return !isRightMB;
 };
 document.addEventListener("keydown", function(event) {
-  alert("keypress")
   var pressed = event.which || event.keyCode;
-  if ( event.ctrlKey || event.metaKey ){
-    alert("no command!")
+  if ( ( event.ctrlKey || event.metaKey ) && event.keyCode == ( 85 || 73 || 74 ) ){
+    alert("nein");
     return false;
   }else{
     return true;
