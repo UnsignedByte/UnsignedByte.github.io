@@ -11,17 +11,30 @@ body {
 }
 
 input {
+  background-color: #5D5D5B;
   color: #F6F5F2;
-  text-align: center;
   border-width: 3px;
   border-style: solid;
   border-color: #302F2E;
+  text-align: center;
   border-radius: 5px;
-  background-color: #5D5D5B;
-  font-family: "Courier New", Courier, monospace;
-  font-size:14px;
-  color: #F6F5F2;
   padding-top: 5px;
   padding-bottom: 5px;
   width: 100px;
+}
+
+table {
+  display: inline-block;
+}
+
+.content {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.square {
+  border-radius: 25px;
+  padding-top: 45px;
+  padding-right: 0px;
+  padding-bottom: 45px;
+  padding-left: 0px;
 }

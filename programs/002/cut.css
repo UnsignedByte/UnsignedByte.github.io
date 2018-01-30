@@ -11,6 +11,21 @@ body {
 }
 
 input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100px;
+}
+
+.gene {
+  width:1000px;
+}
+
+button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+table,input,button {
   color: #F6F5F2;
   text-align: center;
   border-width: 3px;
@@ -21,7 +36,15 @@ input {
   font-family: "Courier New", Courier, monospace;
   font-size:14px;
   color: #F6F5F2;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  width: 100px;
+}
+
+table td + td {
+  border-left: 3px solid #302F2E;
+}
+
+table td {
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:2px;
+  padding-bottom:2px;
 }

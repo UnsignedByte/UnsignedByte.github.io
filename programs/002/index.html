@@ -1,0 +1,18 @@
+<html lang="en"><head>
+  <title>Gel Electrophoresis</title>
+  <link rel="stylesheet" type="text/css" href="cut.css">
+</head>
+<body>
+  <div class="content">
+    <input id="enzyme" type="text" value="G/AATTC" onkeyup="update()">
+    <button id="add" onclick="addrow()">Add Gene</button>
+    <button id="add" onclick="removerow()">Remove Gene</button>
+    <br>
+    <div id="inputs"><input class="gene" onkeyup="update()" type="text" value="GATCGTAGAATTCGGATGCCCGCTTTAGCTGCAATGCTGGAACCTGAATTCGCATTCGTGAATTCATTCGTTAGTCGAT"><input class="gene" onkeyup="update()" type="text" value="TACCTGAAGGGGGAATTCGATTCCCCTAGTAGGAATTCGACTTAATCCGAACCTCTAGGATCGAATTCGTTAGGATCAG"><input class="gene" onkeyup="update()" type="text" value="ATTTAGCTTAGCTGAATTCGATTAAACACTTCGGCTAGGAATTCGTTATAGAATTCGATAGCTTAGATCGATGATCGATA"><input class="gene" onkeyup="update()" type="text" value="GATTAACATGATCTGAACCGAATTCAGGATAGGAATTCGTTATATGCATCCGCGGAATTCATCGGATATGGAATTCAGT"><input class="gene" onkeyup="update()" type="text" value="CCCTAGTCCTAGAATTCGGTATTAAGCTCCCCTATAGCCTAGCAATGAATTCGATTAGATCTCGGTTAGTATGCTAGTA"></div>
+  </div>
+  <div class="content" id="output">
+  </div>
+  <script src="cut.js"></script>
+
+
+</body></html>
