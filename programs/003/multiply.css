@@ -10,7 +10,7 @@ body {
 	margin: 0;
 }
 
-input {
+input,p {
   background-color: #5D5D5B;
   color: #F6F5F2;
   border-width: 3px;
@@ -21,14 +21,18 @@ input {
   padding-top: 5px;
   padding-bottom: 5px;
   width: 100px;
+	margin:0;
+	font-size: 10pt;
+  font-family: "Courier New", Courier, monospace;
 }
 
 table {
   display: inline-block;
+	white-space: nowrap;
 }
 
 .content {
-  font-family: "Courier New", Courier, monospace;
+	font-family: "Courier New", Courier, monospace;
 }
 
 .square {
