@@ -1,0 +1,17 @@
+/**
+ * @Author: Edmund Lam <edl>
+ * @Date:   11:21:06, 05-Sep-2018
+ * @Filename: index.css
+ * @Last modified by:   edl
+ * @Last modified time: 14:02:05, 14-Sep-2018
+ */
+
+body {
+ margin: 0;
+}
+
+#bar {
+  background-color: #444444;
+  width: 100%;
+  height: 50px;
+}
